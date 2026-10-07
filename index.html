@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Studio lecture</title>
+<meta name="description" content="Outil personnel et privé, en lecture seule.">
+<style>
+  :root { --fond: #05070d; --carte: #0b1220; --texte: #f5f7ff; --doux: #b9c3d9; --bleu: #3da5ff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; background: radial-gradient(1200px 600px at 20% -10%, #0d2a52 0%, var(--fond) 60%);
+         color: var(--texte); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; display: grid; place-items: center; padding: 24px 16px; }
+  main { max-width: 680px; background: var(--carte); border: 1px solid #1b2a44; border-radius: 18px; padding: 40px 32px;
+         box-shadow: 0 0 0 1px rgba(61,165,255,.08), 0 30px 80px rgba(0,0,0,.55); }
+  h1 { margin: 0 0 18px; font-size: 32px; letter-spacing: .5px; }
+  h1::after { content: ""; display: block; width: 64px; height: 3px; margin-top: 12px; border-radius: 3px;
+              background: linear-gradient(90deg, var(--bleu), transparent); box-shadow: 0 0 18px var(--bleu); }
+  p { margin: 0 0 22px; color: var(--doux); }
+  a { color: var(--bleu); text-decoration: none; border-bottom: 1px solid rgba(61,165,255,.4); }
+  a:hover, a:focus-visible { color: #8cc9ff; border-bottom-color: #8cc9ff; outline: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Studio lecture</h1>
+  <p>Outil personnel et privé. Il lit, en lecture seule et avec l'autorisation de son propriétaire, les statistiques de ses propres comptes Instagram et YouTube et de ses publicités Meta, pour les garder sur son ordinateur et améliorer ses contenus. Il ne publie rien, n'envoie aucun message, ne dépense rien et ne sert à personne d'autre.</p>
+  <p><a href="confidentialite.html">Règles de confidentialité</a></p>
+</main>
+</body>
+</html>
